@@ -1,0 +1,33 @@
+body{
+    height: 960px;
+    margin: 50px;
+    padding : 0;
+}
+
+h1{
+    text-align: center;
+}
+
+#grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items : center;
+    margin-right : 300px;
+}
+
+.container{
+    display: flex;
+    width : 100px;
+    
+
+}
+
+.square{
+    width: 30%;
+    height: 0;
+    border: 1px solid white;
+    background-color:rgb(100, 93, 93);
+    padding-top : 30%;
+  }
+
